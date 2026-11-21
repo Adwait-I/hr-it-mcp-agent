@@ -1,0 +1,28 @@
+# Environment variables & secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ChromaDB local persistent database
+chroma_db/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
